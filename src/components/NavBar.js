@@ -5,7 +5,7 @@ export default class NavBar extends Component {
     return (
       <nav className="nav-bar">
         <ul className="nav-bar__list">
-          <li>HOME</li>
+          <li className="nav-bar__list--active">HOME</li>
           <li>ABOUT</li>
           <li>ROOMS</li>
           <li>SERVICES</li>

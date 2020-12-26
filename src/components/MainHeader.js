@@ -8,5 +8,5 @@ export default class MainHeader extends Component {
         <h2 className="main-header__bottom">Magnify your Journey</h2>
       </div>
     );
-  }
+  } 
 }
