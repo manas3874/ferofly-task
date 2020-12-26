@@ -8,17 +8,17 @@ import Dining from "../icons/Dining";
 export default class ContentCard extends Component {
   render() {
     const imageRender = (string) => {
-      if (string == "Breakfast") {
+      if (string === "Breakfast") {
         return <Breakfast />;
-      } else if (string == "Garden") {
+      } else if (string === "Garden") {
         return <Garden />;
-      } else if (string == "Pool") {
+      } else if (string === "Pool") {
         return <Pool />;
-      } else if (string == "Wifi") {
+      } else if (string === "Wifi") {
         return <Wifi />;
-      } else if (string == "Housekeeping") {
+      } else if (string === "Housekeeping") {
         return <Housekeeping />;
-      } else if (string == "Dining") {
+      } else if (string === "Dining") {
         return <Dining />;
       }
     };
