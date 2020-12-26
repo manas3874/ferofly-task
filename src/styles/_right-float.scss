@@ -1,0 +1,14 @@
+.right-float {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 40%;
+  right: 0rem;
+  padding: 2rem 3rem;
+  img {
+    // transform: scale(1.5);
+    width: 100%;
+    margin: 2rem 0;
+  }
+}

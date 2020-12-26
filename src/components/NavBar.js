@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import Button from "./Button";
 export default class NavBar extends Component {
   render() {
     return (
@@ -12,7 +12,7 @@ export default class NavBar extends Component {
           <li>GALLERY</li>
           <li>SEE & DO</li>
           <li>CONTACT</li>
-          <li className="nav-bar__list--book-a-room-btn">BOOK A ROOM</li>
+          <Button link="Book a Room" color="white" versions="white" />
         </ul>
       </nav>
     );

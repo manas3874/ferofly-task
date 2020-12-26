@@ -1,0 +1,32 @@
+.content-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  //   background-color: grey;
+  &__image {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__svg {
+    width: 100%;
+    &-garden {
+      transform: scale(1.8);
+    }
+  }
+  &__header {
+    font-size: 1.7rem;
+    margin: 3rem 0 0 0;
+    font-weight: 500;
+  }
+  &__content {
+    width: 85%;
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(116, 116, 116);
+  }
+}

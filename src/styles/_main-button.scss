@@ -1,0 +1,23 @@
+.main-button {
+  font-weight: 700;
+  padding: 1.5rem 2.5rem;
+  width: max-content;
+  font-size: 1.4rem;
+  cursor: pointer;
+  &__black {
+    &:hover {
+      background: #000;
+      color: white !important;
+      border: 1px solid white !important;
+      transition: 200ms ease-in-out;
+    }
+  }
+  &__white {
+    &:hover {
+      background: #fff;
+      color: black !important;
+      border: 1px solid black !important;
+      transition: 200ms ease-in-out;
+    }
+  }
+}

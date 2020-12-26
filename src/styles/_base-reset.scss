@@ -19,10 +19,16 @@ button {
   padding: 0;
 }
 
-$fancy-font: "Playfair Display", serif;
-$main-font: "Raleway", sans-serif;
+$fancy-font: "Charm", cursive;
+$main-font: "Darker Grotesque", sans-serif;
+$content-font: "Montserrat", sans-serif;
+
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: $content-font;
+  * {
+    font-weight: 300;
+  }
+
   margin: 0;
   padding: 0;
 }

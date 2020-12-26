@@ -1,11 +1,9 @@
 const parallax = document.querySelectorAll("#parallax");
 
-window.addEventListener("scroll", (ev) => {
+window.addEventListener("scroll", () => {
   let offset = window.scrollY;
-
   //   console.log(ev.target.defaultView.scrollY);
-
-  parallax[0].style.transform = `translate3d(0px,${offset * -0.6}px,0px)`;
+  parallax[0].style.transform = `translate3d(0px,${offset * -0.3}px,0px)`;
   //   parallax[1].style.transform = `translate3d(0px,${
   //     offset + offset * -0.7
   //   }px,0px)`;

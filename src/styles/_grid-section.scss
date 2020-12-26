@@ -1,0 +1,14 @@
+.grid-section {
+  width: 50%;
+  margin: 10rem auto;
+  &__header {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 7rem;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+  }
+}
