@@ -1,4 +1,4 @@
-## A clone website with parallax effect using JavaScript
+## A Sleek website with parallax effect using JavaScript
 
 [View the project live](https://practical-lalande-e2a253.netlify.app/)
 
